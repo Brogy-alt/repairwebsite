@@ -1,0 +1,81 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header, main, footer {
+    min-width: 100%;
+}
+header {
+    background-color: grey;
+    padding-bottom: 20px;
+}
+header, .menu-list {
+    display: inline-flex;
+}
+header img {
+    width: 20em;
+}
+.menu {
+    margin-left: auto;
+    align-self: center;
+    display: inline-flex;
+    
+
+}
+.menu-list li {
+  padding: 0.5px;
+  margin-right: 130px;
+  
+
+
+}
+.menu-list {
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+#jpg {
+    width: 100%;
+}
+
+/* unvisited link */
+a link {
+    color: rgb(0, 174, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: lightseagreen;
+  }
+  
+  /* selected link */
+  a:active {
+    color: skyblue;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
